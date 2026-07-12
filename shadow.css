@@ -1,0 +1,59 @@
+/* Body */
+body{
+    background-color:#f4f4f4;
+    text-align:center;
+    font-family:Arial, sans-serif;
+    padding:40px;
+}
+
+/* Main Heading */
+h1{
+    color:navy;
+    font-size:40px;
+}
+
+/* Common Style */
+h2{
+    margin:30px;
+    font-size:35px;
+}
+
+/* 1. Simple Shadow */
+.shadow1{
+    text-shadow:2px 2px gray;
+}
+
+/* 2. Red Shadow */
+.shadow2{
+    color:blue;
+    text-shadow:3px 3px red;
+}
+
+/* 3. Blur Shadow */
+.shadow3{
+    color:green;
+    text-shadow:4px 4px 6px blue;
+}
+
+/* 4. Multiple Shadow */
+.shadow4{
+    color:purple;
+    text-shadow:
+        2px 2px red,
+        4px 4px blue,
+        6px 6px green;
+}
+
+/* 5. Glowing Effect */
+.shadow5{
+    color:white;
+    background:black;
+    padding:15px;
+    text-shadow:0px 0px 10px yellow;
+}
+
+/* Paragraph */
+p{
+    font-size:20px;
+    margin-top:40px;
+}
