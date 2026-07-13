@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1{
+    text-align:center;
+    color:navy;
+}
+
+h2{
+    text-align:center;
+}
+
+/* Common Style */
+
+div{
+    width:250px;
+    padding:20px;
+    margin:20px auto;
+    text-align:center;
+    color:white;
+}
+
+/* Static */
+
+.static{
+    position:static;
+    background:blue;
+}
+
+/* Relative */
+
+.relative{
+    position:relative;
+    left:50px;
+    top:20px;
+    background:green;
+}
+
+/* Parent Container */
+
+.container{
+    position:relative;
+    width:400px;
+    height:200px;
+    background:lightgray;
+    border:2px solid black;
+}
+
+/* Absolute */
+
+.absolute{
+    position:absolute;
+    top:30px;
+    right:20px;
+    background:red;
+    width:150px;
+}
+
+/* Fixed */
+
+.fixed{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:purple;
+}
+
+/* Sticky */
+
+.sticky{
+    position:sticky;
+    top:0;
+    background:orange;
+    color:black;
+    font-weight:bold;
+}
