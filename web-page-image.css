@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image: url("../BR company.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Arial, sans-serif;
+}
+
+.hero{
+    background:rgba(0,0,0,0.5);
+    padding:40px;
+    border-radius:15px;
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.quote{
+    font-size:25px;
+    font-style:italic;
+}
